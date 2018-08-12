@@ -1,0 +1,18 @@
+---
+# 采用的日志框架
+loggerFactoryClass: io.vertx.core.logging.Log4j2LogDelegateFactory
+
+basePackage: org.mendoraX
+
+# 日志框架classpath下路径
+loggerConfigPath: /config/log4j2.yaml
+
+# 集群心跳感应，单位为妙
+heartbeatInterval: 15
+
+# 集群端口号
+clusterPort: 5701
+
+# 集群服务器ip组
+clusterServerIps:
+  - 127.0.0.1

@@ -1,0 +1,4 @@
+{
+  "main": "org.mendora.verticles.MainVerticle",
+  "auto-redeploy": true
+}

@@ -1,0 +1,6 @@
+---
+# postgre 链接地址
+dbPostgreUri: postgre://normal:Normal!#$@123.207.55.60:5432/mendora_dev?maxPoolSize=10&charset=UTF-8&queryTimeout=3000
+
+# mongodb 链接地址
+dbMongoUri: mongodb://normal:Normal!#$@123.207.55.60:27017/mendora_dev?waitqueuemultiple=20000&maxPoolSize=30&minPoolSize=5

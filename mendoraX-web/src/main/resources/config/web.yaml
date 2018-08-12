@@ -1,0 +1,15 @@
+---
+# http服务端口号
+httpPort: 8080
+
+# http请求体限制大小
+httpBodyLimit: 2048576
+
+# jwt私钥
+jwtKeyPasswd: menfre
+
+# jwt token 过期时间，单位为分钟
+jwtExpiresMinutes: 30
+
+# jwt token 签发者
+jwtIssuer: mendora
